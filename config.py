@@ -29,7 +29,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n━━━━━━━━━━━━━━━━━\n𝗖𝗔𝗥𝗔 𝗠𝗘𝗡𝗗𝗔𝗣𝗔𝗧𝗞𝗔𝗡 𝗠𝗘𝗗𝗜𝗔 \n———————————————\n• ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ sᴇʙᴇʟᴀʜ ᴋɪʀɪ ᴀᴛᴀs\n(ʟᴀʟᴜ ᴋʟɪᴋ ᴊᴏɪɴ/ɢᴀʙᴜɴɢ)\n• ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ sᴇʙᴇʟᴀʜ ᴋᴀɴᴀɴ ᴀᴛᴀs\n(ʟᴀʟᴜ ᴋʟɪᴋ ᴊᴏɪɴ/ɢᴀʙᴜɴɢ)\n• ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ sᴇʙᴇʟᴀʜ ᴋɪʀɪ ʙᴀᴡᴀʜ\n(ʟᴀʟᴜ ᴋʟɪᴋ ᴊᴏɪɴ/ɢᴀʙᴜɴɢ)\n• ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ sᴇʙᴇʟᴀʜ ᴋᴀɴᴀɴ ʙᴀᴡᴀʜ\n(ʟᴀʟᴜ ᴋʟɪᴋ ᴊᴏɪɴ/ɢᴀʙᴜɴɢ)\n• ᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴄᴏʙᴀ ʟᴀɢɪ ʏᴀɴɢ ᴘᴀʟɪɴɢ ʙᴀᴡᴀʜ\n(ʟᴀʟᴜ ᴍᴇᴅɪᴀ/ᴋᴏɴᴛᴇɴ ᴀᴋᴀɴ ᴍᴜɴᴄᴜʟ)\n———————————————\n𝗦𝗘𝗟𝗔𝗠𝗔𝗧 𝗠𝗘𝗡𝗜𝗞𝗠𝗔𝗧𝗜 𝗔𝗦𝗨𝗣𝗔𝗡\n━━━━━━━━━━━━━━━━━")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
